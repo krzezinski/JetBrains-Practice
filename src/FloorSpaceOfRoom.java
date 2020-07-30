@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /*
  Residents of the country of Malevia often experiment with the plan of
    their rooms. Rooms can be triangular, rectangular, and round.
@@ -13,7 +12,7 @@ import java.util.Scanner;
                 10
         output: 40
  */
-
+import java.util.Scanner;
 public class FloorSpaceOfRoom {
     public static void main(String[] args) {
         Double a = 0.0;
