@@ -36,5 +36,48 @@ public class LongestAscSeq {
             }
         }
         System.out.println(maxSeq);
+		/*
+		// Solution 2
+        System.out.println("\nSolution 2");
+        // Scanner scanner = new Scanner(System.in);
+        int len2 = scanner.nextInt();
+        int[] array2 = new int[len2];
+        int maxSeq2 = 1;
+        int longSeq2 = 1;
+        for (int i = 0; i < len2; i++) {
+            array2[i] = scanner.nextInt();
+        }
+        for (int i = 1; i < len2; i++) {
+            System.out.println("i " + i + ", array-1 " + array2[i-1]+ ", array " + array2[i]);
+            if (array2[i] < array2[i - 1]) {
+                // New longSeq
+                if (longSeq2 > maxSeq2) {
+                    maxSeq2 = longSeq2;
+                }
+                longSeq2 = 1;
+            } else {
+                longSeq2++;
+            }
+            if (longSeq2 > maxSeq2) {
+                maxSeq2 = longSeq2;
+            }
+        }
+        System.out.println(maxSeq2);
+        // Solution 3
+        System.out.println("\nSolution 3");
+        Scanner s = new Scanner(System.in);
+        int len3 = s.nextInt();
+        int[] series = new int[len3];
+        int a = 1;
+        int amax = 1;
+        for (int i = 0; i < len3; i++) {
+            series[i] = s.nextInt();
+        }
+        for (int j = 1; j < len3; j++) {
+            a = series[j] > series[j-1] ? a + 1 : 1;
+            amax = a > amax ? a : amax;
+        }
+        System.out.println(amax);
+		*/
     }
 }
