@@ -1,2 +1,2 @@
 # JetBrains-Practice
-JetBrains Academy / Hyperskill Practice
+JetBrains Academy / Hyperskill
